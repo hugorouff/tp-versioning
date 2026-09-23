@@ -28,3 +28,5 @@ def export_resultat(resultat, chemin):
 	return texte
 
 def nouvelle_api_v3(): pass
+
+# Correction de stabilisation beta

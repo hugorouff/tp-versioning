@@ -1,10 +1,14 @@
 def moyenne(notes):
+	if notes is None:
+		return None
 	if not notes:
 		return 0
 	return sum(notes) / len(notes)
 
 
 def mediane(notes):
+	if notes is None:
+		return None
 	if not notes:
 		return 0
 

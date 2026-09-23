@@ -4,6 +4,7 @@ from tempfile import TemporaryDirectory
 from calcpro import export_resultat, mediane, moyenne_notes
 assert moyenne_notes([10, 20]) == 15 
 assert moyenne_notes([1.5, 2.5]) == 2.0
+assert moyenne_notes([17]) == 17
 assert moyenne_notes([]) == 0 
 assert moyenne_notes(None) is None
 assert mediane([3, 1, 2]) == 2

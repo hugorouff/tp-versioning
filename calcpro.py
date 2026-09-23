@@ -3,6 +3,8 @@ def moyenne_notes(notes):
 		return None
 	if not notes:
 		return 0
+	if len(notes) == 1:
+		return notes[0]
 	return sum(notes) / len(notes)
 
 

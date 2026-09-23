@@ -26,3 +26,5 @@ def export_resultat(resultat, chemin):
 	with open(chemin, "w", encoding="utf-8") as fichier:
 		fichier.write(texte)
 	return texte
+
+def nouvelle_api_v3(): pass

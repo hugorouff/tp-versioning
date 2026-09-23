@@ -28,5 +28,8 @@ def export_resultat(resultat, chemin):
 	return texte
 
 def nouvelle_api_v3(): pass
-
-# Correction de stabilisation beta
+    if notes is None:
+        raise ValueError('notes ne peut pas etre None')
+    if not notes:
+        return 0
+    return sum(notes) / len(notes)

@@ -17,3 +17,10 @@ def mediane(notes):
 	if len(valeurs) % 2:
 		return valeurs[milieu]
 	return (valeurs[milieu - 1] + valeurs[milieu]) / 2
+
+
+def export_resultat(resultat, chemin):
+	texte = str(resultat)
+	with open(chemin, "w", encoding="utf-8") as fichier:
+		fichier.write(texte)
+	return texte

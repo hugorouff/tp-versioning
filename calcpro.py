@@ -1,4 +1,4 @@
-def moyenne(notes):
+def moyenne_notes(notes):
 	if notes is None:
 		return None
 	if not notes:
